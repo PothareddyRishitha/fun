@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /*: Greeting Function
+Scenario: Create a function that takes a name as an argument and returns a greeting message.Task:
+Define a function greet that takes one parameter name.
+The function should print a greeting message like “Hello, [name]!”.
+Call the function with different names and print the results.*/ 
+
+ 
+let x=prompt("enter a name");
+function greet(a="dear"){
+    console.log("hello "+a+" welcome")
+}
+greet(x)
+/*Define a function sum that takes two parameters a and b.
+The function should return the sum of a and b.
+Call the function with different numbers and print the results.
+*/ 
+function add(a,b){
+console.log(a+b)
+}
+add(20,6)
+add(9,30)
+add(5,8)
+
+
+function square(num){
+            console.log(num*num)
+        }
+        square(2)
+        square(3)
+        square(4)
+        square(5)  
+
+
+
+    function averages(arr){
+            let sum=0;
+            let count=0;
+            for(i=0;i<arr.length;i++){
+                sum+=arr[i];
+                count++ 
+            }
+                average=sum/count;
+                return average;
+        }
+
+        let arr=[10,20,30,40,50];
+        console.log(averages(arr));
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
